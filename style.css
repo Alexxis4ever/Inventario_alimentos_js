@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: silver;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contenedorBotones{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+    width: 85%;
+    margin-bottom: 1.5rem;
+}
+
+button {
+    height: 3rem;
+    font-size: 14px;
+    font-weight: 700;
+    border-style: none;
+    border: 1px solid gray;
+    border-radius: 12px;
+    color: white;
+}
+
+#agregarProducto {
+    background-color: #09ca09;
+}
+
+#eliminarProducto {
+    background-color: #bb1717;
+}
+
+#modificarProducto {
+    background-color: rgb(206, 206, 44);
+}
+
+#buscarPorNombre{
+    background-color: purple;
+}
+
+#filtrarPorRangoPrecio {
+    background-color: orangered;
+}
+
+#crearReporteInventario {
+    background-color: rgb(49, 101, 197);
+}
+
+
+
+table {
+    border-collapse: collapse;
+    width: 95%;
+    margin-bottom: 1.5rem;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: rgb(46, 126, 192);
+}
+
+tr {
+    background-color: white;
+}
+
+
+
+
+
+

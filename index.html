@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Inventario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Sistema de Inventario</h1>
+
+    <div class="contenedorBotones">
+        <button id="agregarProducto" onclick="agregarProducto()">Agregar Producto</button>
+        <button id="eliminarProducto" onclick="eliminarProducto()">Eliminar Producto</button>
+        <button id="modificarProducto" onclick="modificarProducto()">Modificar Producto</button>
+        <button id="buscarPorNombre" onclick="buscarPorNombre()">Buscar por Nombre</button>
+        <button id="filtrarPorRangoPrecio" onclick="filtrarPorRangoPrecio()">Filtrar por Rango de Precio</button>
+        <button id="crearReporteInventario" onclick="crearReporteInventario()">Crear Reporte de Inventario</button>
+    </div>
+
+    <table id="tablaInventario">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Categoría</th>
+                <th>Precio</th>
+                <th>Cantidad</th>
+                <th>Marca</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Aquí se llenará la tabla con los productos -->
+        </tbody>
+    </table>
+
+    <div id="output"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
